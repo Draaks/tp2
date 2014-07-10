@@ -1,0 +1,48 @@
+/*Our buble list items */
+.buble {
+	width:200px;
+	padding:2em 1em 1em 1em; 		
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	
+	-webkit-transition: all 300ms ease-out;
+	   -moz-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out; 
+		 -o-transition: all 300ms ease-out;
+			transition: all 300ms ease-out;
+}
+		
+.buble img {
+	margin:auto;
+	display:block;		
+	
+	-webkit-transform: scale(.9);
+	   -moz-transform: scale(.9);
+		-ms-transform: scale(.9);
+		 -o-transform: scale(.9));		
+			transform: scale(.9);
+
+	-webkit-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+	   -moz-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		-ms-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		 -o-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+			transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}	
+.buble:hover {
+	background-color:white;
+	background-color: rgba(200,200,200,.3);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;		
+	cursor: pointer;
+}	
+.buble:hover img {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1));
+	-ms-transform: scale(1);
+	transform: scale(1);
+}	
+.buble:hover h2 {
+	color:#c9a833;		
+}	

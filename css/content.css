@@ -1,0 +1,73 @@
+
+/*CLASS & DIVS*/
+
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: #333333; /*Midnight Blue*/
+}
+
+/*Header*/
+
+.header{
+	width: 100%;
+	vertical-align: top;
+	text-align: center;
+}
+
+.logo{
+	z-index: 3;
+	position: relative;
+}
+
+.header-Menu{
+	z-index: 3;
+	text-align: center;
+	background-color: #333333;
+	width: 100%;
+}
+
+.vens{
+	color: #FFFFFF;
+}
+
+.online {
+	color: #2ECC71; /*Emerald*/
+}
+
+/*Content*/
+
+.content{
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #333333;
+	width: 100%;
+}
+
+.content-wrapper{
+	display: none;
+}
+
+.content .content-wrapper ul li{
+	list-style:none;
+}
+
+.content-text{
+	color: #2ECC71; /*Emerald*/
+}
+
+/*Footer*/
+
+.footer {
+	text-align: center;
+}
+
+.copyright{
+	color: #FFFFFF;
+	text-align: center;
+	font-style:italic
+}
+
+.fVensOnline{
+	font-style: normal;
+}
